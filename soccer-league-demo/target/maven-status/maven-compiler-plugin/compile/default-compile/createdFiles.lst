@@ -1,0 +1,7 @@
+org\example\demo\view\ErrorServlet.class
+org\example\demo\view\AddLeagueServlet.class
+org\example\demo\view\ListLeaguesServlet.class
+org\example\demo\model\League.class
+org\example\demo\view\SuccessPage.class
+org\example\demo\controller\LeagueController.class
+org\example\demo\db\MyConnectionFactory.class
