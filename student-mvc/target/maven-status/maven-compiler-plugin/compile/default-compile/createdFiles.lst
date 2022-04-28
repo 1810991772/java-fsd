@@ -1,0 +1,5 @@
+org\example\demo\controller\HomeController.class
+org\example\demo\model\Student.class
+org\example\demo\controller\StudentController.class
+org\example\demo\controller\HelloWorldController.class
+org\example\demo\controller\model\Student.class
