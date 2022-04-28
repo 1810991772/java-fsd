@@ -1,0 +1,27 @@
+server:
+  port: 0
+spring:
+  application:
+    name: ms-2-ws
+  boot:
+    admin:
+      client:
+        url:
+        - http://admin:admin@localhost:8761/admin
+  zipkin:
+    base-url: http://localhost:9411
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin@localhost:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'   
